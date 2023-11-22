@@ -6,8 +6,7 @@ public class Comentarios {
     private int denuncia_id = 0;
     private int analista_id = 0;
 
-    public Comentarios(int id, String conteudo, int denuncia_id, int analista_id) {
-        this.id = id;
+    public Comentarios(String conteudo, int denuncia_id, int analista_id) {
         this.conteudo = conteudo;
         this.denuncia_id = denuncia_id;
         this.analista_id = analista_id;

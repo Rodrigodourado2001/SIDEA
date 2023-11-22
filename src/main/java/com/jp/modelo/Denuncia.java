@@ -26,13 +26,12 @@ public class Denuncia {
     private String status = null;
     private String parecerTecnico = null;
 
-    public Denuncia(int id, String protocolo, int id_denuncia, String sigilo, String CEP, String logradouro,
+    public Denuncia(String protocolo, int id_denuncia, String sigilo, String CEP, String logradouro,
                     String atividadeCategoria, String bairro, String municipio, String referencia, String latitude,
                     String descricao, String outrasIinformações, Date dataDoOcorrido, Date dataDaDenuncia, String horaDaDenuncia,
                     Date dataEncerramento, String horaEncerramento, String provavelCriminoso, int denuncianteId, int analistaId,
                     String status, String parecerTecnico) {
 
-        this.id = id;
         this.protocolo = protocolo;
         this.id_denuncia = id_denuncia;
         this.sigilo = sigilo;

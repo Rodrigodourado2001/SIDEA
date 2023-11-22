@@ -8,8 +8,7 @@ public class Denunciante {
     private String email = null;
     private String telefone = null;
 
-    public Denunciante(int id, String login, String senha, String nomeCompleto, String email, String telefone) {
-        this.id = id;
+    public Denunciante(String login, String senha, String nomeCompleto, String email, String telefone) {
         this.login = login;
         this.senha = senha;
         this.nomeCompleto = nomeCompleto;

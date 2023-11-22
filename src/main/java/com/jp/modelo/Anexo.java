@@ -6,8 +6,7 @@ public class Anexo {
     private String conteudo = null;
     private int denunciaId = 0;
 
-    public Anexo(int id, String nomeDoArquivo, String conteudo, int denunciaId) {
-        this.id = id;
+    public Anexo(String nomeDoArquivo, String conteudo, int denunciaId) {
         this.nomeDoArquivo = nomeDoArquivo;
         this.conteudo = conteudo;
         this.denunciaId = denunciaId;
